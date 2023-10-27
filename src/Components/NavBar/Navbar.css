@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.Maincontainer{
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    z-index: 1;
+}
+
+.Website{
+    display: flex;
+    flex-direction: row;
+}
+
+.websitename{
+    font-weight: bold;
+    font-size: 30px;
+    margin: 10px;
+    text-decoration: none;
+    font-family: sans-serif;
+    color: black;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    font-size: 20px;
+}
+
+.menuitem{
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+}
+
+.cart-wishlist{
+    font-weight: bold;
+    font-size: 30px;
+    margin: 10px;
+    text-decoration: none;
+    font-family: sans-serif;
+    color: black;
+    justify-content: center;
+    align-items: center;
+}
+
+.wishlist{
+    margin-right: 10px;
+    color: black;
+    display: flex;
+}
+
+.cart{
+    margin-right: 10px;
+    color: black;
+    display: flex;
+    text-decoration: none;
+}
+
+.login{
+    margin-right: 10px;
+    color: black;
+    display: flex;
+}
+
+.search{
+    color: black;
+}
+
+.button{
+    margin: 5px;
+    justify-content: center;
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid black;
+    background-color: white;
+}
+
+.button:hover{
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+}
+
+.cart-count{
+    vertical-align: super;
+    font-size: 14px;
+}
