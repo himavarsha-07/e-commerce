@@ -7,10 +7,10 @@ export default function Womens({products, handleWishlist, handleCart}) {
     return (
         <div className="MainContainer">
             {products && products.map((item, index) => (
-                <div className='prod-row'>
-                    <div className='product'>
+                <div className='prod-row' key={index}>
+                    <div className='product' data-test="Product">
                         <div className='prod-div'>
-                        <img className="productpic" alt="product" src={item.img} key={index}/>
+                        <img className="productpic" alt="product" src={item.img}/>
                         </div>
                         <div className='cartfunc'>
                             <div>

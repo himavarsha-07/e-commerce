@@ -11,7 +11,7 @@ export default function Mens({products, handleWishlist, handleCart}) {
         <div className="MainContainer">
             {  products && products.map((item, index) => (
                 <div className='prod-row' key={index}>
-                    <div className='product'>
+                    <div className='product' data-test="Product">
                         <div className='prod-div'>
                             <img className="productpic" alt="product" src={item.img}/>
                         </div>

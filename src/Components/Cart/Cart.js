@@ -47,7 +47,9 @@ export default function Cart({cartItems, handleCart, handleRemoveProduct, handle
                 <h3>Total price: </h3>
                 <div className='total'>₹{totalPrice}</div>
                 </div>
-                <button className='checkout-btn'>Checkout</button>
+                <Link to={"/"} data-test="checkout-btn">
+                    <button className='checkout-btn'>Checkout</button>
+                </Link>
             </div>
                 )
             }
